@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trello</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="mainHead">
+        <div class="first_half">
+          <div class="logos">
+            <a href="#">
+              <img src="./public/TrelloHeadLogo.png" alt="">
+            </a>
+            <a href="#">
+              <img src="./public/TrelloLogo.png" alt="">
+            </a>
+          </div>
+          <nav class="nav_menu">
+            <a href="#">Рабочие пространства <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8.32858 11.6381L3.61455 6.92405C3.35419 6.6637 3.35419 6.24159 3.61455 5.98125C3.87489 5.7209 4.29701 5.7209 4.55735 5.98125L8.79998 10.2239L13.0426 5.98125C13.303 5.72089 13.7251 5.72089 13.9854 5.98125C14.2458 6.24159 14.2458 6.6637 13.9854 6.92405L9.27138 11.6381C9.01105 11.8985 8.58891 11.8985 8.32858 11.6381Z"
+                  fill="#9FADBC" />
+              </svg>
+            </a>
+            <a href="#">Недавние <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8.32858 11.6381L3.61455 6.92405C3.35419 6.6637 3.35419 6.24159 3.61455 5.98125C3.87489 5.7209 4.29701 5.7209 4.55735 5.98125L8.79998 10.2239L13.0426 5.98125C13.303 5.72089 13.7251 5.72089 13.9854 5.98125C14.2458 6.24159 14.2458 6.6637 13.9854 6.92405L9.27138 11.6381C9.01105 11.8985 8.58891 11.8985 8.32858 11.6381Z"
+                  fill="#9FADBC" />
+              </svg>
+            </a>
+            <a href="#">В изобранном <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8.32858 11.6381L3.61455 6.92405C3.35419 6.6637 3.35419 6.24159 3.61455 5.98125C3.87489 5.7209 4.29701 5.7209 4.55735 5.98125L8.79998 10.2239L13.0426 5.98125C13.303 5.72089 13.7251 5.72089 13.9854 5.98125C14.2458 6.24159 14.2458 6.6637 13.9854 6.92405L9.27138 11.6381C9.01105 11.8985 8.58891 11.8985 8.32858 11.6381Z"
+                  fill="#9FADBC" />
+              </svg>
+            </a>
+            <a href="#">Шаблоны <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8.32858 11.6381L3.61455 6.92405C3.35419 6.6637 3.35419 6.24159 3.61455 5.98125C3.87489 5.7209 4.29701 5.7209 4.55735 5.98125L8.79998 10.2239L13.0426 5.98125C13.303 5.72089 13.7251 5.72089 13.9854 5.98125C14.2458 6.24159 14.2458 6.6637 13.9854 6.92405L9.27138 11.6381C9.01105 11.8985 8.58891 11.8985 8.32858 11.6381Z"
+                  fill="#9FADBC" />
+              </svg>
+            </a>
+            <button class="createBtn">Создать</button>
+          </nav>
+        </div>
+        <div class="helpMenu">
+          <input type="search" placeholder="Поиск">
+          <a href="#">
+            <img src="./public/BellIcon.png" alt="">
+          </a>
+          <a href="#">
+            <img src="./public/HelpIcon.png" alt="">
+          </a>
+          <a href="#">
+            <img src="./public/UserPicture.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="body">
+    <div class="container body_container">
+
+      <div class="sidebar">
+       <aside class="slider">
+        <div class="workspace-header">
+          <div class="workspace-info">
+            <img src="./public/ProdigyLogo.png" alt="Workspace Icon" class="workspace-icon">
+            <div class="workspace-text">
+              <h2>PRODIGY: рабочее пространство</h2>
+              <span>Бесплатно</span>
+            </div>
+          </div>
+          <button class="arrow-button">
+            <img src="./public/arrowSlider.png" alt="Arrow">
+          </button>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="#"><img src="./public/desk_icon.png" alt="">Доски</a></li>
+            <li><a href="#"><img src="./public/members_icon.png" alt=""> Участники</a><button
+                class="add-button">+</button></li>
+            <li><a href="#"><img src="./public/settings_icon.png" alt=""> Настройки рабочего пространства</a></li>
+          </ul>
+          <h3>Режимы просмотра рабочего пространства</h3>
+          <ul>
+            <li><a href="#"><img src="./public/table_icon.png" alt="">Таблица</a></li>
+            <li><a href="#"><img src="./public/calendary_icon.png" alt=""> Календарь</a></li>
+          </ul>
+          <h3>Мои доски</h3>
+          <ul>
+            <li><a href="#">desk</a><button class="add-button">+</button></li>
+          </ul>
+        </nav>
+
+
+
+        <div class="sidebar-footer">
+          <button class="premium-button">Попробовать Premium бесплатно</button>
+        </div>
+
+      </aside>
+
+      </div>
+
+      <div class="main_side">
+        <div class="main_head">
+          <div class="main_left">
+            <h1>desk</h1>
+            <a href="#">
+              <img src="./public/StarIcon.png" alt="">
+            </a>
+            <a href="#">
+              <img src="./public/HumansIcon.png" alt="">
+            </a>
+            <button>
+              По доске
+            </button>
+            <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.52075 14.4226L3.62821 8.53004C3.30276 8.20461 3.30276 7.67697 3.62821 7.35153C3.95364 7.0261 4.48128 7.0261 4.80671 7.35153L10.11 12.6548L15.4133 7.35153C15.7387 7.02609 16.2664 7.02609 16.5918 7.35153C16.9172 7.67697 16.9172 8.20461 16.5918 8.53004L10.6992 14.4226C10.3738 14.7481 9.84616 14.7481 9.52075 14.4226Z" fill="white"/>
+              </svg>
+              
+          </div>
+          <div class="main_right">
+            <a href="#">
+              <img src="./public/rocketIcon.png" alt="">
+            </a>
+            <a href="#">
+              <img src="./public/lightingIcon.png" alt="">
+            </a>
+            <a href="#">
+              <img src="./public/filter_icon.png" alt=""> Фильтры
+            </a> |
+             <a href="#">
+              <img src="./public/UserPicture.png" alt="">
+            </a>
+            <button>
+             <img src="./public/share_icon.png" alt=""> Поделиться
+            </button>
+            <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1667 18.1667C11.0871 18.1667 11.8333 17.4205 11.8333 16.5C11.8333 15.5795 11.0871 14.8333 10.1667 14.8333C9.24619 14.8333 8.5 15.5795 8.5 16.5C8.5 17.4205 9.24619 18.1667 10.1667 18.1667ZM16 18.1667C16.9205 18.1667 17.6667 17.4205 17.6667 16.5C17.6667 15.5795 16.9205 14.8333 16 14.8333C15.0795 14.8333 14.3333 15.5795 14.3333 16.5C14.3333 17.4205 15.0795 18.1667 16 18.1667ZM23.5 16.5C23.5 17.4205 22.7538 18.1667 21.8333 18.1667C20.9128 18.1667 20.1667 17.4205 20.1667 16.5C20.1667 15.5795 20.9128 14.8333 21.8333 14.8333C22.7538 14.8333 23.5 15.5795 23.5 16.5Z" fill="white"/>
+              </svg>
+              
+          </div>
+        </div>
+
+        <div class="main_body">
+          <div class="cards">
+            <div class="card">
+             <div class="card_head">
+              <h1>Todo</h1>
+              <a href="#">
+                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1667 18.1667C11.0871 18.1667 11.8333 17.4205 11.8333 16.5C11.8333 15.5795 11.0871 14.8333 10.1667 14.8333C9.24619 14.8333 8.5 15.5795 8.5 16.5C8.5 17.4205 9.24619 18.1667 10.1667 18.1667ZM16 18.1667C16.9205 18.1667 17.6667 17.4205 17.6667 16.5C17.6667 15.5795 16.9205 14.8333 16 14.8333C15.0795 14.8333 14.3333 15.5795 14.3333 16.5C14.3333 17.4205 15.0795 18.1667 16 18.1667ZM23.5 16.5C23.5 17.4205 22.7538 18.1667 21.8333 18.1667C20.9128 18.1667 20.1667 17.4205 20.1667 16.5C20.1667 15.5795 20.9128 14.8333 21.8333 14.8333C22.7538 14.8333 23.5 15.5795 23.5 16.5Z" fill="white"/>
+                  </svg>
+              </a>
+             </div>
+             <div class="todos_container">
+              <div class="todo" draggable="true">
+                <p>Hello TypeScript goodbye JavaScirpt</p>
+              </div>
+              <div class="todo" draggable="true">
+                <p>Не забыть сходить за хлебом</p>
+              </div>
+              <div class="todo" draggable="true">
+                <p>I'm going to fail the final Exam!</p>
+              </div>
+             
+             </div>
+             <div class="create_card">
+              <h1>+ Добавить Карточку</h1>
+              <a href="#">
+                <img src="./public/card_icon.png" alt="">
+              </a>
+             </div>
+            </div>
+            <div class="card">
+             <div class="card_head">
+              <h1>В процессе</h1>
+              <a href="#">
+                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1667 18.1667C11.0871 18.1667 11.8333 17.4205 11.8333 16.5C11.8333 15.5795 11.0871 14.8333 10.1667 14.8333C9.24619 14.8333 8.5 15.5795 8.5 16.5C8.5 17.4205 9.24619 18.1667 10.1667 18.1667ZM16 18.1667C16.9205 18.1667 17.6667 17.4205 17.6667 16.5C17.6667 15.5795 16.9205 14.8333 16 14.8333C15.0795 14.8333 14.3333 15.5795 14.3333 16.5C14.3333 17.4205 15.0795 18.1667 16 18.1667ZM23.5 16.5C23.5 17.4205 22.7538 18.1667 21.8333 18.1667C20.9128 18.1667 20.1667 17.4205 20.1667 16.5C20.1667 15.5795 20.9128 14.8333 21.8333 14.8333C22.7538 14.8333 23.5 15.5795 23.5 16.5Z" fill="white"/>
+                  </svg>
+              </a>
+             </div>
+             <div class="todos_container">
+              <div class="todo" draggable="true">
+                <p>Jasurs homework</p>
+              </div>
+             
+             </div>
+             <div class="create_card">
+              <h1>+ Добавить Карточку</h1>
+              <a href="#">
+                <img src="./public/card_icon.png" alt="">
+              </a>
+             </div>
+            </div>
+            <div class="card">
+             <div class="card_head">
+              <h1>Готово</h1>
+              <a href="#">
+                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1667 18.1667C11.0871 18.1667 11.8333 17.4205 11.8333 16.5C11.8333 15.5795 11.0871 14.8333 10.1667 14.8333C9.24619 14.8333 8.5 15.5795 8.5 16.5C8.5 17.4205 9.24619 18.1667 10.1667 18.1667ZM16 18.1667C16.9205 18.1667 17.6667 17.4205 17.6667 16.5C17.6667 15.5795 16.9205 14.8333 16 14.8333C15.0795 14.8333 14.3333 15.5795 14.3333 16.5C14.3333 17.4205 15.0795 18.1667 16 18.1667ZM23.5 16.5C23.5 17.4205 22.7538 18.1667 21.8333 18.1667C20.9128 18.1667 20.1667 17.4205 20.1667 16.5C20.1667 15.5795 20.9128 14.8333 21.8333 14.8333C22.7538 14.8333 23.5 15.5795 23.5 16.5Z" fill="white"/>
+                  </svg>
+              </a>
+             </div>
+             <div class="todos_container">
+              
+             
+             </div>
+             <div class="create_card">
+              <h1>+ Добавить Карточку</h1>
+              <a href="#">
+                <img src="./public/card_icon.png" alt="">
+              </a>
+             </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <dialog class="modal" id="modal">
+    <h3>Enter Card Text</h3>
+    <input type="text" id="card_input" placeholder="Enter text here">
+    <button class="save_card">Save</button>
+    <button class="close_modal">Cancel</button>
+  </dialog>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
