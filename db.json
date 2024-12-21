@@ -1,5 +1,94 @@
 {
-    "cards":[
-        
-    ]
+  "todos": [
+    {
+      "id": "1",
+      "title": "Task 1",
+      "description": "This is the first task description.",
+      "status": "1",
+      "deadline": "2024-12-31T23:59:59.000Z",
+      "createdAt": "2024-12-01T08:00:00.000Z",
+      "updatedAt": "2024-12-05T08:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Task 2",
+      "description": "This is the second task description.",
+      "status": "2",
+      "deadline": "2024-12-25T17:00:00.000Z",
+      "createdAt": "2024-12-02T09:00:00.000Z",
+      "updatedAt": "2024-12-12T10:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "Task 3",
+      "description": "This is the third task description.",
+      "status": "3",
+      "deadline": "2024-12-20T12:00:00.000Z",
+      "createdAt": "2024-12-03T10:00:00.000Z",
+      "updatedAt": "2024-12-15T14:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "Task 4",
+      "description": "This is the fourth task description.",
+      "status": "2",
+      "deadline": "2024-12-28T13:00:00.000Z",
+      "createdAt": "2024-12-06T11:00:00.000Z",
+      "updatedAt": "2024-12-10T12:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "title": "Task 5",
+      "description": "This is the fifth task description.",
+      "status": "1",
+      "deadline": "2024-12-23T16:00:00.000Z",
+      "createdAt": "2024-12-07T07:00:00.000Z",
+      "updatedAt": "2024-12-11T09:00:00.000Z"
+    },
+    {
+      "id": "eda8bcdc-089e-49e7-951f-4a087e7f6691",
+      "createAt": "19.12.2024",
+      "updateAt": "19.12.2024",
+      "title": "new task",
+      "description": "hello",
+      "status": "2",
+      "deadline": "2024-12-20T19:11"
+    },
+    {
+      "id": "736297b6-4a45-4e2e-9d0e-6fe188035eca",
+      "createAt": "19.12.2024",
+      "updateAt": "19.12.2024",
+      "title": "Hola amigos",
+      "description": "Hol ",
+      "status": "3",
+      "deadline": "2024-12-31T01:14"
+    },
+    {
+      "id": "d8f50c3b-4abe-4d5c-91f1-0e023634ad1d",
+      "createAt": "19.12.2024",
+      "updateAt": "19.12.2024",
+      "title": "new task",
+      "description": "daskjdhaslkdjh",
+      "status": "1",
+      "deadline": "2024-12-26T23:33"
+    },
+    {
+      "id": "ed162cbc-ab21-4044-8f96-f11bfa25309b",
+      "createdAT": "21.12.2024",
+      "updatedAT": "21.12.2024",
+      "title": "hello",
+      "description": "",
+      "status": "1",
+      "deadline": ""
+    },
+    {
+      "id": "46342820-bd65-45f0-82e4-3ec9c51d75ef",
+      "createdAT": "21.12.2024",
+      "updatedAT": "21.12.2024",
+      "title": "",
+      "description": "ima giant",
+      "status": "2",
+      "deadline": "2024-12-05T17:59"
+    }
+  ]
 }

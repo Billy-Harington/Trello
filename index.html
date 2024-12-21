@@ -115,6 +115,11 @@
       </aside>
 
       </div>
+      <div class="returnSlider">
+        <a href="#">
+          <img src="./public/arrowSlider.png" alt="">
+        </a>
+      </div>
 
       <div class="main_side">
         <div class="main_head">
@@ -237,13 +242,33 @@
   </section>
 
   <dialog class="modal" id="modal">
-    <h3>Enter Card Text</h3>
-    <input type="text" id="card_input" placeholder="Enter text here">
-    <button class="save_card">Save</button>
-    <button class="close_modal">Cancel</button>
+    <form name="taskForm">
+      <div class="form-group">
+          <label for="title">Title</label>
+          <input type="text" id="title" name="title" >
+      </div>
+      <div class="form-group">
+          <label for="description">Description</label>
+          <textarea id="description" name="description" ></textarea>
+      </div>
+      <div class="form-group">
+          <label for="status">Status</label>
+          <select id="status" name="status">
+              <option value="1">Not Started</option>
+              <option value="2">In Progress</option>
+              <option value="3">Completed</option>
+          </select>
+      </div>
+      <div class="form-group">
+          <label for="deadline">Deadline</label>
+          <input type="datetime-local" id="deadline" name="deadline" >
+      </div>
+      <button type="submit" class="submit">Create Task</button>
+      <button type="reset" class="reject">Close</button>
+  </form>
   </dialog>
 
-  <script type="module" src="/src/main.js"></script>
+  <script type="module" src="/src/main.ts"></script>
 </body>
 
 </html>
